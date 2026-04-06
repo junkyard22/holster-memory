@@ -1,0 +1,16 @@
+{
+  "profile_name": "AM5 + DDR5 + RTX 3090",
+  "platform": "AM5",
+  "ram_type": "DDR5",
+  "ram_speed_mhz": 6000,
+  "ram_capacity_gb": 32,
+  "pcie_gen": 5,
+  "pcie_lanes": 16,
+  "pcie_practical_gbps": 28.0,
+  "vram_gb": 24,
+  "gpu": "RTX 3090",
+  "recommended_prefetch_window": 2,
+  "recommended_vram_budget_gb": 20,
+  "kv_cache_reserved_gb": 2,
+  "notes": "PCIe 5.0 slot but RTX 3090 is a PCIe 4.0 card — PCIe bandwidth ceiling is identical to AM4 profile. DDR5 RAM bandwidth is the meaningful variable vs AM4/DDR4. Update pcie_practical_gbps if GPU is upgraded to PCIe 5.0 card."
+}

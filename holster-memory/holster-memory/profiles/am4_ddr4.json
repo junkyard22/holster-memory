@@ -1,0 +1,16 @@
+{
+  "profile_name": "AM4 + DDR4 + RTX 3090",
+  "platform": "AM4",
+  "ram_type": "DDR4",
+  "ram_speed_mhz": 3600,
+  "ram_capacity_gb": 32,
+  "pcie_gen": 4,
+  "pcie_lanes": 16,
+  "pcie_practical_gbps": 28.0,
+  "vram_gb": 24,
+  "gpu": "RTX 3090",
+  "recommended_prefetch_window": 3,
+  "recommended_vram_budget_gb": 20,
+  "kv_cache_reserved_gb": 2,
+  "notes": "Wider prefetch window compensates for lower PCIe bandwidth vs AM5. PCIe 4.0 is the ceiling regardless of slot version with this GPU."
+}
