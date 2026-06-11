@@ -8,6 +8,9 @@
 **Author:** James Yarber  
 **Status:** Pre-hardware prototype — harness and architecture complete, execution benchmarks pending hardware availability
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20649203.svg)](https://doi.org/10.5281/zenodo.20649203)
+
+
 ---
 
 ## The Problem
