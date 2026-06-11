@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use or reference Holster Memory, please cite it as below."
+title: "Holster Memory: a tiered GPU memory architecture for consumer AI workloads"
+abstract: "A tiered GPU memory architecture in which a large, slower memory pool holds the full workload while VRAM functions as a high-speed execution cache, staging only the data needed at the moment of computation. Published as a defensive publication; concept established December 2025."
+authors:
+  - family-names: "Yarber"
+    given-names: "James"
+    affiliation: "Yak Stacks LLC"
+type: software
+version: "0.1.0"
+doi: 10.5281/zenodo.20649203
+date-released: 2026-06-11
+repository-code: "https://github.com/junkyard22/holster-memory"
+license: Apache-2.0
+keywords:
+  - GPU memory
+  - tiered memory
+  - inference optimization
+  - VRAM
+  - local AI
